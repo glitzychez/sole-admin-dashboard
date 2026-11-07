@@ -2,11 +2,19 @@
 
 # 
 
-# \*\*A Web-Based Admin Dashboard for an M-Commerce System\*\*
+# \### Administrative Dashboard for the SOLE M-Commerce System
 
 # 
 
-# SOLE is an administrative dashboard developed using Flutter and Firebase. It serves as the management interface for the SOLE mobile e-commerce application.
+# SOLE Admin Dashboard is a web-based administrative interface developed using \*\*Flutter\*\* and \*\*Firebase\*\*. It is designed to serve as the management platform for the SOLE mobile e-commerce application.
+
+# 
+
+# The project provides a centralized interface for managing and supporting the e-commerce system.
+
+# 
+
+# \---
 
 # 
 
@@ -14,15 +22,23 @@
 
 # 
 
-# \- \*\*Flutter\*\* – User interface and application development
+# | Technology | Purpose |
 
-# \- \*\*Dart\*\* – Programming language
+# |---|---|
 
-# \- \*\*Firebase\*\* – Backend services
+# | Flutter | Web application framework |
 
-# \- \*\*Cloud Firestore\*\* – Database management
+# | Dart | Programming language |
 
-# \- \*\*Firebase Hosting\*\* – Web application hosting
+# | Firebase | Backend services |
+
+# | Cloud Firestore | Cloud database |
+
+# | Firebase Hosting | Web application deployment |
+
+# 
+
+# \---
 
 # 
 
@@ -34,11 +50,17 @@
 
 # sole-admin-dashboard/
 
+# │
+
 # ├── android/
 
 # ├── ios/
 
 # ├── lib/
+
+# │   ├── main.dart
+
+# │   └── ...
 
 # ├── linux/
 
@@ -50,11 +72,25 @@
 
 # ├── test/
 
+# │
+
+# ├── firebase.json
+
+# ├── .firebaserc
+
 # ├── pubspec.yaml
 
-# └── firebase.json
+# ├── pubspec.lock
+
+# ├── analysis\_options.yaml
+
+# └── README.md
 
 # ```
+
+# 
+
+# \---
 
 # 
 
@@ -62,17 +98,25 @@
 
 # 
 
+# Follow these instructions to set up the project on your local machine.
+
+# 
+
 # \### Prerequisites
 
 # 
 
-# \- Flutter SDK
+# Make sure you have installed:
 
-# \- Dart SDK
+# 
 
-# \- Android Studio or Visual Studio Code
+# \- \[Flutter SDK](https://docs.flutter.dev/get-started/install)
 
-# \- Firebase project
+# \- \[Dart SDK](https://dart.dev/get-dart)
+
+# \- \[Visual Studio Code](https://code.visualstudio.com/) or Android Studio
+
+# \- \[Firebase CLI](https://firebase.google.com/docs/cli)
 
 # 
 
@@ -80,7 +124,7 @@
 
 # 
 
-# 1\. Clone the repository:
+# \*\*1. Clone the repository\*\*
 
 # 
 
@@ -92,7 +136,7 @@
 
 # 
 
-# 2\. Navigate to the project directory:
+# \*\*2. Navigate to the project directory\*\*
 
 # 
 
@@ -104,7 +148,7 @@
 
 # 
 
-# 3\. Install dependencies:
+# \*\*3. Install dependencies\*\*
 
 # 
 
@@ -116,7 +160,7 @@
 
 # 
 
-# 4\. Run the application:
+# \*\*4. Run the application in Chrome\*\*
 
 # 
 
@@ -128,11 +172,41 @@
 
 # 
 
+# \---
+
+# 
+
+# \## Firebase Configuration
+
+# 
+
+# This project uses Firebase services for backend integration.
+
+# 
+
+# Before running or deploying the application:
+
+# 
+
+# 1\. Make sure you have access to the configured Firebase project.
+
+# 2\. Verify that Firebase is initialized correctly.
+
+# 3\. Ensure the required Firebase services and permissions are configured.
+
+# 4\. Do not upload private credentials, service account keys, or other sensitive configuration files.
+
+# 
+
+# \---
+
+# 
+
 # \## Building for Web
 
 # 
 
-# Generate a production web build:
+# To generate the production web application, run:
 
 # 
 
@@ -144,11 +218,55 @@
 
 # 
 
-# \## Firebase Deployment
+# The generated web files will be located in:
 
 # 
 
-# Deploy the web application using Firebase Hosting:
+# ```text
+
+# build/web/
+
+# ```
+
+# 
+
+# \---
+
+# 
+
+# \## Deployment
+
+# 
+
+# This project is configured for Firebase Hosting.
+
+# 
+
+# \*\*1. Log in to Firebase\*\*
+
+# 
+
+# ```bash
+
+# firebase login
+
+# ```
+
+# 
+
+# \*\*2. Build the Flutter web application\*\*
+
+# 
+
+# ```bash
+
+# flutter build web --release
+
+# ```
+
+# 
+
+# \*\*3. Deploy to Firebase Hosting\*\*
 
 # 
 
@@ -160,7 +278,7 @@
 
 # 
 
-# Make sure your Firebase project and configuration are properly set up before deployment.
+# \---
 
 # 
 
@@ -168,21 +286,25 @@
 
 # 
 
-# \*\*Project:\*\* SOLE – M-Commerce System  
+# | Details | Description |
 
-# \*\*Component:\*\* Web-Based Admin Dashboard  
+# |---|---|
 
-# \*\*Platform:\*\* Web  
+# | Project Name | SOLE |
 
-# \*\*Framework:\*\* Flutter  
+# | System | M-Commerce System |
 
-# 
+# | Component | Web-Based Admin Dashboard |
 
-# \## Repository
+# | Platform | Web |
 
-# 
+# | Framework | Flutter |
 
-# \[SOLE Admin Dashboard – GitHub](https://github.com/glitzychez/sole-admin-dashboard)
+# | Language | Dart |
+
+# | Backend | Firebase |
+
+# | Database | Cloud Firestore |
 
 # 
 
@@ -190,5 +312,17 @@
 
 # 
 
-# \*Developed as part of the SOLE M-Commerce System project.\*
+# \## Repository
+
+# 
+
+# \*\*GitHub:\*\* \[SOLE Admin Dashboard](https://github.com/glitzychez/sole-admin-dashboard)
+
+# 
+
+# \---
+
+# 
+
+# \*SOLE – M-Commerce System | Web-Based Admin Dashboard\*
 
